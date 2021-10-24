@@ -6,16 +6,20 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 import data from "../shared_data"
+import {ReactComponent as WorkIcon} from "../icons/work.svg"
+import {ReactComponent as SchoolIcon} from "../icons/school.svg"
 
 class Experience extends Component {
+
+  // 54353B
   render() {
     if (data.experience) {
       var sectionName = 'Experience';
       var work = data.experience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
-        const skillIcon = '<img src="' + work.skills + '" />';
-
+        var icon = (work.icon == 'work') ? <WorkIcon /> : <SchoolIcon />;
+        var classBadge = 'vertical-timeline-element--' + work.icon;
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
             <Badge pill className="main-badge mr-2 mb-2" key={i}>
@@ -32,14 +36,14 @@ class Experience extends Component {
         });
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className={classBadge}
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#5B6571",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={skillIcon}
+            icon={icon}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -72,13 +76,13 @@ class Experience extends Component {
               <h2>{sectionName}</h2>
             </div>
           </div>
-          <div className="col-md-8 mx-auto">
-            <VerticalTimeline>
+          <div className="col-md-10 mx-auto">
+            <VerticalTimeline layout="1-column-left">
               {work}
               <VerticalTimelineElement
                 iconStyle={{
-                  background: "#AE944F",
-                  color: "#fff",
+                  background: "#fff",
+                  color: "#AE944F",
                   textAlign: "center",
                 }}
                 icon={

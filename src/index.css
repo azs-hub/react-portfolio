@@ -67,12 +67,70 @@ code {
 	background-color: #A17E85;
 }
 
+#resume {
+	/*background-color: #F3EEE5 !important;*/
+	background-color: #FFFCFB !important;
+	margin-top: 60px;
+}
+#resume h2 {
+	/*color: #54353B;*/
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.vertical-timeline-element-content-arrow {
+	border-right: 7px solid #787E87;
+}
+.vertical-timeline-element-icon {
+	width: 50px;
+	height: 50px;
+  margin-left: -5px;
+}
+.vertical-timeline-element-icon svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+.vertical-timeline-element-content {
+	margin-left: 70px;
+}
+.vertical-timeline-element--work .vertical-timeline-element-content {
+    border-top: 3px solid #5B6571;
+    /*border-top: 3px solid #865A63;*/
+}
+.vertical-timeline-element--school .vertical-timeline-element-icon {
+    background-color: #59716A !important;
+}
+.vertical-timeline-element--school .vertical-timeline-element-content {
+    background-color: #59716A;
+}
+.vertical-timeline-element--school .vertical-timeline-element-content-arrow {
+	border-right: 7px solid #59716A;
+}
+.vertical-timeline::before {
+	background-color: #fff;
+}
 .main-badge {
 	font-size: 13px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #787E87 !important;
 	color: white;
 	font-weight: lighter !important;
 }
@@ -80,8 +138,9 @@ code {
 	font-size: 11px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
+	margin-left: 5px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #eee !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

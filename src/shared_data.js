@@ -1,3 +1,6 @@
+import workIcon from "./icons/work.svg"
+import schoolIcon from "./icons/school.svg"
+
 export default {
   title: "Anais",
   aboutParaOne: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -25,39 +28,75 @@ export default {
   },
   experience: [
     {
-      company: "DefOpenSource",
+      icon: 'work',
+      company: "SQLI Enterprise",
       title: "Front-End Developer",
-      years: "10.2019 - present",
+      years: "09/2016 - 11/2018",
       skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
       mainTech: [
         "Angular 8/9/10"
       ],
       technologies: [
         "REST API",
-        "RxJS",
+        "ContentFul",
+        "NodeJs",
         "JavaScript",
+        "AngularJs",
+        "TypeScript",
         "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Angular Material",
+        "AEM",
+        "Agile Method",
+        "Git",
+        "Trello",
       ]
     },
     {
-      company: "Serros Solutions",
-      title: "Intern",
-      years: "01.2018 - 09.2019",
+      icon: 'work',
+      company: "LinAgora",
+      title: "Front-End Developer for LinShare",
+      years: "09/2015 - 09/2016",
       skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
       mainTech: [
         "Angular 7/8"
       ],
       technologies: [
-        "RxJS",
-        "Django",
-        "PHP",
+        "AngularJs",
+        "Git",
         "JavaScript",
-        "DHTMLX Gantt"
+        "Material Design",
+        "Graphic Design",
+        "Open source",
+      ]
+    },
+    {
+      icon: 'work',
+      company: "CTZAR",
+      title: "FullStack Developer",
+      years: "10/2013 - 07/2015",
+      skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      mainTech: [
+        "Vanilla PHP&JS"
+      ],
+      technologies: [
+        "JavaScript",
+        "PHP",
+        "Graphic Design",
+      ]
+    },
+    {
+      icon: 'school',
+      company: "WebAcademie EPITECH",
+      title: "Web developer",
+      years: "2012 - 2014",
+      skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      mainTech: [
+        "Fll stack"
+      ],
+      technologies: [
+        "JavaScript",
+        "PHP",
+        "MySql",
       ]
     }
   ],

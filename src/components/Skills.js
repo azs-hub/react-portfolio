@@ -5,8 +5,6 @@ import Fade from "react-reveal/Fade"
 import Spin from "react-reveal/Spin"
 import Zoom from "react-reveal/Zoom"
 
-import RenderSkillCt from "./RenderSkillCt"
-
 import data from "../shared_data"
 
 
