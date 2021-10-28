@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 const Header = () => {
 	return (
 		<div className="section" id="home">
-			<div className="container-md fh">
+			<div className="container-lg fh">
 				<div className="d-flex align-items-center justify-content-center">
 					<div className="">
 						<Fade left>

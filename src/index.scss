@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@300;400&display=swap');
+
+// Components
+@import "./styles/home.scss";
+@import "./styles/about.scss";
+@import "./styles/skills.scss";
+@import "./styles/experiences.scss";
+
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.section .container.fh,
+.section .container-lg.fh,
+.section .container-md.fh {
+	height: 100vh;
+	display: flex;
+	width: fit-content;
+}
+.section .contain {
+	height: 100vh;
+	display: flex;
+}
+.section h2 {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #A17E85;
+}
+
+.navbar {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: #f3eae5 !important;
+}
+.navbar-brand {
+	letter-spacing: 3px;
+}
+.navbar-brand span {
+	letter-spacing: 1px;
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+

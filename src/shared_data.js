@@ -3,11 +3,12 @@ import schoolIcon from "./icons/school.svg"
 
 export default {
   title: "Anais",
-  aboutParaOne: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaTwo: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  aboutParaOne: "During the five years of my work-study Software Master Architect, I was able to develop my technical skills through two methods that in my opinion must coexist and be inseparable from each other. First of all theoretical teaching, in particular through very high-quality project-based pedagogy, then of course practical experience, gained directly in the professional world, which moreover worked on the new teaching.",
+  aboutParaTwo: "For so long that I can't put a date or period on it, I have always been passionate about computer programming. It stimulates just as much my logical and pragmatic side, but also my imagination in the creation of solutions, without omitting perhaps the most important thing in my eyes: programming is a great opportunity to challenge myself, to set myself ever more daring goals for get closer and closer to the purest optimization of my work.",
+  aboutParaThree: "Through my travel and the creation of silver jewelry, the design of clothes and the online sale of these, I have also seen a real attraction for manual and artistic activities, and I don't think I have to be ashamed now of my skills in these areas as well.",
 	basic_info: {
     name: "Anais Siba",
-    profile_picture: "anais.jpeg",
+    profile_picture: "anais.jpg",
     headerTagline: "Full stack Web Developer",
     headerTagline2: "Specialized in JavaScript",
     headerDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
@@ -30,9 +31,10 @@ export default {
     {
       icon: 'work',
       company: "SQLI Enterprise",
-      title: "Front-End Developer",
+      title: "Front-End Developer - Specialized JavaScript",
       years: "09/2016 - 11/2018",
       skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+      details: "- HomeFriend: Web developer AngularJs for the web app of HomeFriend.\n\n- Silversea: Web developer AEM - Dev Front-end of the website silversea.\n\n - Analysis of the solution Contentful according to the needs expressed by the customer. Report of the advantages and disadvantages of the functionalities and implementation of a demo.\nContentful / AngularJs / NodeJs\n\n",
       mainTech: [
         "Angular 8/9/10"
       ],
@@ -57,6 +59,7 @@ export default {
       title: "Front-End Developer for LinShare",
       years: "09/2015 - 09/2016",
       skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+      details: "Developer for the front-office and back-office of the application Lin'Share.\nLin'Share is an openSource app for secure sharing and storing of files.",
       mainTech: [
         "Angular 7/8"
       ],
@@ -70,11 +73,28 @@ export default {
       ]
     },
     {
+      icon: 'school',
+      company: "ETNA Alternance - IONIS",
+      title: "Web developer",
+      years: "2014 - 2017",
+      skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      details: "Master Architech Software.\n\nVarious projects using Php, Javascript, C#, MySQL, Html, Css. C & C++",
+      mainTech: [
+        "Fll stack"
+      ],
+      technologies: [
+        "JavaScript",
+        "PHP",
+        "MySql",
+      ]
+    },
+    {
       icon: 'work',
       company: "CTZAR",
       title: "FullStack Developer",
       years: "10/2013 - 07/2015",
       skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      details: "Developer Full-Stack for two e-commerce website.\n\nCreation of modules (vanilla PHP & JS) for the Back-Office.",
       mainTech: [
         "Vanilla PHP&JS"
       ],
@@ -86,10 +106,11 @@ export default {
     },
     {
       icon: 'school',
-      company: "WebAcademie EPITECH",
+      company: "WebAcademie EPITECH - IONIS",
       title: "Web developer",
       years: "2012 - 2014",
       skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      details: "Specialized course at Epitech.\n\nVarious projects using Php, Javascript, MySQL, Html, Css. C & C++",
       mainTech: [
         "Fll stack"
       ],

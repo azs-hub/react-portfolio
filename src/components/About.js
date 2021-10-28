@@ -8,14 +8,23 @@ const About = () => {
 	var profilepic = "images/" + data.basic_info.profile_picture;
   return (
     <div className="section" id="about">
-      <div className="container-md fh">
-        <div className=" d-flex align-items-center justify-content-center">
-	        <div className="col-sm-8">
+      <div className="container-md">
+        <div className="row">
+	        <div className="col-sm-12">
+	        	<h2>About Me</h2>
+	        </div>
+	        <div className="col-sm-5">
+	          <Zoom bottom>
+		       		<img
+		       			className="img-fluid"
+	              src={profilepic}
+	              alt="Avatar placeholder"
+	            />
+	          </Zoom>
+	        </div>
+	        <div className="col-sm-7 introduction">
 	        	<Fade bottom cascade>
-		          <div>
-		            <h2>About Me</h2>
-		          </div>
-		          <p>
+	        		<p>
 		            {data.aboutParaOne}
 		          </p>
 		         	<p>
@@ -25,15 +34,6 @@ const About = () => {
 		            {data.aboutParaThree}
 		          </p>
 		        </Fade>
-	        </div>
-	        <div className="col-sm-4">
-	        	<Zoom bottom>
-		       		<img
-		       			className="img-fluid"
-	              src={profilepic}
-	              alt="Avatar placeholder"
-	            />
-	          </Zoom>
 	        </div>
 	      </div>
       </div>

@@ -29,9 +29,9 @@ class Experience extends Component {
         });
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+            <li key={i}>
               {technology}
-            </Badge>
+            </li>
           );
         });
         return (
@@ -62,7 +62,8 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <p>{work.details}</p>
+            <div style={{ textAlign: "left", marginTop: "15px" }} className="vertical-timeline-element-technologies"><ul>{tech}</ul></div>
           </VerticalTimelineElement>
         );
       });
