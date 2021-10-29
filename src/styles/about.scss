@@ -4,19 +4,19 @@
 }
 #about .introduction,
 #about .introduction p {
-	/*white-space: nowrap !important;	*/
-	/*white-space: pre-wrap; 
-	word-break: pre;
-	word-wrap: unset !important;
-	overflow-wrap: unset !important;
-	-webkit-hyphens: unset !important;
-	-moz-hyphens: unset !important;
-	-ms-hyphens: unset !important;
-	hyphens: unset !important;*/
-
 	letter-spacing: 1px;
 	font-family: "Roboto", sans-serif;
 	text-align: justify;
 	line-height: 27px;
 
+}
+#about .introduction p::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%) rotate(
+-45deg);
+    margin: 0px 5px 0px 0px;
+    background-color: #A68D7F;
 }
