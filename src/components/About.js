@@ -14,16 +14,16 @@ const About = () => {
 	        	<h2>About Me</h2>
 	        </div>
 	        <div className="col-sm-5">
-	          <Zoom bottom>
+	          <Fade left>
 		       		<img
 		       			className="img-fluid"
 	              src={profilepic}
 	              alt="Avatar placeholder"
 	            />
-	          </Zoom>
+	          </Fade>
 	        </div>
 	        <div className="col-sm-7 introduction">
-	        	<Fade bottom cascade>
+	        	<Fade right>
 	        		<p>
 		            {data.aboutParaOne}
 		          </p>

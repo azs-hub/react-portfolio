@@ -24,11 +24,12 @@ export default {
   experience: [
     {
       icon: 'work',
-      company: "My Little Baba | SHOP",
+      company: "My Little Baba SHOP & Chikoo Style",
       title: "Founder & Leader",
       years: "06/2020 - NOW",
+      link: "https://www.mylittlebaba-shop.com/",
       skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
-      details: "My Little Baba is an online shop offering an experience of Traveling and Shopping.\nThe goal is to offer an experience of traveling through shopping and discovering atypical destinations and the local products.\nProducts are bought in small local shop and sold at fair price.",
+      details: "My Little Baba is an online shop offering an experience of traveling through shopping by discovering atypical destinations and the local products.\nProducts are bought in small local shop and sold at fair price.\n\nMy Little Baba is reselling my brand Chikoo style.",
       mainTech: [
         "Prestashop"
       ],

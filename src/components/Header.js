@@ -8,6 +8,7 @@ const Header = () => {
 				<div className="d-flex align-items-center justify-content-center">
 					<div className="">
 						<Fade left>
+							<img src='images/lotus.svg' alt='lotus' />
 							<h2>
 								Hi, I'm {data.basic_info.name}{" "}
 							</h2>
@@ -21,7 +22,7 @@ const Header = () => {
 							</h3>
 						</Fade>
 						<Fade bottom>
-							<a className="btn btn-dark">
+							<a className="btn btn-dark" href="#contact">
 								CONNECT WITH ME
 							</a>
 						</Fade>
