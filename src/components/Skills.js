@@ -32,7 +32,6 @@ class Skills extends Component {
 	RenderSkill(skillCat) {
 		var isShown = 0;
 		var show = false;
-		console.log('isShown ENTER', show, this.show);
 		return (
   		<Fade cascade left onReveal={ () => show=true }>
       	<h4>{skillCat.name}</h4>

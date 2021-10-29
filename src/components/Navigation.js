@@ -10,11 +10,12 @@ const Navigation = () => {
         <Nav
           className="mr-auto my-2 my-lg-0"
           style={{ maxHeight: '100px' }}
+          navbarScroll
         >
-          <Nav.Link href="#experiences">Work</Nav.Link>
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#skills">Skills</Nav.Link>
-          <Nav.Link href="#experiences">Experiences</Nav.Link>
+          <Nav.Link href="#resume">Experiences</Nav.Link>
+          <Nav.Link href="#languages">Languages</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Container>

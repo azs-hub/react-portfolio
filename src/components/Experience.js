@@ -80,16 +80,6 @@ class Experience extends Component {
           <div className="col-md-10 mx-auto">
             <VerticalTimeline layout="1-column-left">
               {work}
-              <VerticalTimelineElement
-                iconStyle={{
-                  background: "#fff",
-                  color: "#AE944F",
-                  textAlign: "center",
-                }}
-                icon={
-                  <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
-                }
-              />
             </VerticalTimeline>
           </div>
         </div>

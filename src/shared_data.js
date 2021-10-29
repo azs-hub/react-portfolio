@@ -1,6 +1,3 @@
-import workIcon from "./icons/work.svg"
-import schoolIcon from "./icons/school.svg"
-
 export default {
   title: "Anais",
   aboutParaOne: "During the five years of my work-study Software Master Architect, I was able to develop my technical skills through two methods that in my opinion must coexist and be inseparable from each other. First of all theoretical teaching, in particular through very high-quality project-based pedagogy, then of course practical experience, gained directly in the professional world, which moreover worked on the new teaching.",
@@ -11,8 +8,6 @@ export default {
     profile_picture: "anais.jpg",
     headerTagline: "Full stack Web Developer",
     headerTagline2: "Specialized in JavaScript",
-    headerDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-    titles: [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead"],
     social: [
       {
         name: "github",
@@ -24,8 +19,7 @@ export default {
         url: "https://www.instagram.com",
         class: "fab fa-instagram"
       }
-    ],
-    image: "myProfile.jpg"
+    ]
   },
   experience: [
     {
@@ -282,31 +276,15 @@ export default {
         },
       ]
     }
-    // {
-    //   name: "HTML 5",
-    //   class: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg",
-    //   level: "95"
-    // },
-    // {
-    //   name: "CSS 3",
-    //   class: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg",
-    //   level: "95"
-    // },
-    
-    // {
-    //   name: "Git",
-    //   class: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg",
-    //   level: "65"
-    // },
-    // {
-    //   name: "Svn",
-    //   class: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/subversion/subversion-original-wordmark.svg",
-    //   level: "65"
-    // },
-    // {
-    //   name: "Php",
-    //   class: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
-    //   level: "60"
-    // }
+  ],
+  languages: [
+    {
+      name: "French",
+      level: 10
+    },
+    {
+      name: "French",
+      level: 10
+    }
   ]
 }
