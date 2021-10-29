@@ -1,0 +1,24 @@
+
+.language-title h4,
+.language-title p {
+    margin-bottom: 0px;
+    text-align: right;
+}
+.language-title p {
+	color: #999;
+}
+.dots-progress-dot {
+	display: inline-block;
+  margin: 0 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  border: solid 1px #999;
+  -webkit-box-shadow: inset 0 0 0 2px hsl(0deg 0% 59% / 10%), 0 1px 2px rgb(0 0 0 / 10%);
+  box-shadow: inset 0 0 0 2px hsl(0deg 0% 59% / 10%), 0 1px 2px rgb(0 0 0 / 10%);
+}
+.dots-progress-dot-active {
+	background-color: #EBE0DA;
+	border: solid 1px #EBE0DA;
+}

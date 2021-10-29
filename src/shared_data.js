@@ -24,6 +24,24 @@ export default {
   experience: [
     {
       icon: 'work',
+      company: "My Little Baba | SHOP",
+      title: "Founder & Leader",
+      years: "06/2020 - NOW",
+      skills: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+      details: "My Little Baba is an online shop offering an experience of Traveling and Shopping.\nThe goal is to offer an experience of traveling through shopping and discovering atypical destinations and the local products.\nProducts are bought in small local shop and sold at fair price.",
+      mainTech: [
+        "Prestashop"
+      ],
+      technologies: [
+        "Developer",
+        "Social Media Marketing",
+        "Fashion designer",
+        "jewelry creator",
+        "purchase and resale",
+      ]
+    },
+    {
+      icon: 'work',
       company: "SQLI Enterprise",
       title: "Front-End Developer - Specialized JavaScript",
       years: "09/2016 - 11/2018",
@@ -280,11 +298,23 @@ export default {
   languages: [
     {
       name: "French",
+      subtitle: "Native",
       level: 10
     },
     {
-      name: "French",
-      level: 10
+      name: "English",
+      subtitle: "Professional working proficiency",
+      level: 7
+    },
+    {
+      name: "Russian",
+      subtitle: "Elementary proficiency",
+      level: 2
+    },
+    {
+      name: "Hindi",
+      subtitle: "Elementary proficiency",
+      level: 1
     }
   ]
 }

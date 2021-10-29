@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { ProgressBar } from 'react-bootstrap';
-import TransitionGroup from 'react-transition-group/TransitionGroup';
 import Fade from "react-reveal/Fade"
 import Spin from "react-reveal/Spin"
 import Zoom from "react-reveal/Zoom"
@@ -11,7 +10,6 @@ import data from "../shared_data"
 class Skills extends Component {
 
 	RenderSpinSkill(show, skillCat) {
-		console.log('RenderSpinSkill ENTER', show);
 		return (
 			<Spin delay={2000}>
 	    	<div className="row justify-content-center mt-3">
@@ -52,7 +50,7 @@ class Skills extends Component {
 		          <h2>Skills</h2>
 		        </div>
 		        {data.skills.map((skillCat, index) => (
-		        	<div className="col-sm-12 mt-5 text-center">
+		        	<div className="col-sm-12 mt-5 mb-5 text-center">
 			        	<Fade cascade left>
 						    	<h4>{skillCat.name}</h4>
 									<ProgressBar now={skillCat.level} />

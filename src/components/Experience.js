@@ -11,10 +11,9 @@ import {ReactComponent as SchoolIcon} from "../icons/school.svg"
 
 class Experience extends Component {
 
-  // 54353B
   render() {
     if (data.experience) {
-      var sectionName = 'Experience';
+      var sectionName = 'Experiences';
       var work = data.experience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
