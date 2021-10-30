@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade"
-
+import SectionName from "./SectionName";
 import data from "../shared_data"
 
 
@@ -33,11 +33,7 @@ class Languages extends Component {
 		return (
 	    <div className="section" id="languages">
 	      <div className="container-md">
-	      	<div className="row">
-	        	<div className="col-sm-12">
-		          <h2>Languages</h2>
-		        </div>
-		      </div>
+	      	<SectionName title="Languages" />
 	       	{languages} 
 		    </div>
 	    </div>

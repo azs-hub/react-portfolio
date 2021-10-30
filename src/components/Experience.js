@@ -5,6 +5,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+
+import SectionName from "./SectionName";
 import data from "../shared_data"
 import {ReactComponent as WorkIcon} from "../icons/work.svg"
 import {ReactComponent as SchoolIcon} from "../icons/school.svg"
@@ -13,7 +15,6 @@ class Experience extends Component {
 
   render() {
     if (data.experience) {
-      var sectionName = 'Experiences';
       var work = data.experience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
@@ -71,11 +72,7 @@ class Experience extends Component {
     return (
       <section id="resume" className="section">
         <div className="container-md">
-          <div className="row">
-            <div className="col-sm-12">
-              <h2>{sectionName}</h2>
-            </div>
-          </div>
+          <SectionName title="Experiences"/>
           <div className="col-md-10 mx-auto">
             <VerticalTimeline layout="1-column-left">
               {work}

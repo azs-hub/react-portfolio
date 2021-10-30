@@ -1,4 +1,5 @@
 import React from "react"
+import SectionName from "./SectionName";
 import data from "../shared_data"
 import Fade from "react-reveal/Fade"
 
@@ -7,10 +8,8 @@ const About = () => {
   return (
     <div className="section" id="about">
       <div className="container-md">
+      	<SectionName title="About Me" />
         <div className="row">
-	        <div className="col-sm-12">
-	        	<h2>About Me</h2>
-	        </div>
 	        <div className="col-sm-5">
 	          <Fade left>
 		       		<img
