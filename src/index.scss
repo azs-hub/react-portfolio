@@ -6,6 +6,7 @@
 @import "./styles/skills.scss";
 @import "./styles/experiences.scss";
 @import "./styles/languages.scss";
+@import "./styles/contact.scss";
 
 body {
   margin: 0;
@@ -13,17 +14,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+::selection {
+  color: #FFFBF9;
+  background: #536D66;
 }
 
 .section {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
-
 .section .container.fh,
 .section .container-lg.fh,
 .section .container-md.fh {
@@ -59,4 +62,8 @@ code {
 	letter-spacing: 1px;
 	font-size: 0.75rem;
 	font-weight: bold;
+}
+
+.icon-greyscale {
+	filter: grayscale(0%) contrast(0) brightness(1.2)
 }

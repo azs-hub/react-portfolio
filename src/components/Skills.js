@@ -55,7 +55,7 @@ class Skills extends Component {
 						    	<h4>{skillCat.name}</h4>
 									<ProgressBar now={skillCat.level} />
 									<Zoom delay={1000}>
-							    	<div className="row justify-content-center mt-3">
+							    	<div className="row justify-content-center mt-3 icon-greyscale">
 							      	{skillCat.skills.map((skill, index) => (
 							      		<div className="col-1">
 							          	<img src={skill.class} alt="css"></img>

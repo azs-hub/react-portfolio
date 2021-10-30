@@ -1,0 +1,17 @@
+#contact {
+	background-color: #FFFDFB;
+}
+#contact h2 {
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+#contact .btn {
+	border-radius: 0px;
+    border: none;
+    background-color: inherit;
+    color: #242F3C;
+    border-bottom: solid 1px #242F3C;
+}
+#contact .icon-greyscale {
+	filter: invert(15%) sepia(7%) saturate(2747%) hue-rotate(173deg) brightness(88%) contrast(87%);
+}

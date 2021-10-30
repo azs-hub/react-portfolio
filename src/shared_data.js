@@ -8,6 +8,7 @@ export default {
     profile_picture: "anais.jpg",
     headerTagline: "Full stack Web Developer",
     headerTagline2: "Specialized in JavaScript",
+    contact: "anais.siba@gmail.com",
     social: [
       {
         name: "github",
