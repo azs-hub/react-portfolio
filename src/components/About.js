@@ -1,8 +1,6 @@
 import React from "react"
 import data from "../shared_data"
 import Fade from "react-reveal/Fade"
-import Zoom from 'react-reveal/Zoom';
-
 
 const About = () => {
 	var profilepic = "images/" + data.basic_info.profile_picture;

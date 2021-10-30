@@ -17,7 +17,7 @@ class Experience extends Component {
       var work = data.experience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
-        var icon = (work.icon == 'work') ? <WorkIcon /> : <SchoolIcon />;
+        var icon = (work.icon === 'work') ? <WorkIcon /> : <SchoolIcon />;
         var classBadge = 'vertical-timeline-element--' + work.icon;
         var mainTech = mainTechnologies.map((technology, i) => {
           return (

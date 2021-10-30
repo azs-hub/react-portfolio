@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import { ProgressBar } from 'react-bootstrap';
 import Fade from "react-reveal/Fade"
-import Spin from "react-reveal/Spin"
-import Zoom from "react-reveal/Zoom"
 
 import data from "../shared_data"
 

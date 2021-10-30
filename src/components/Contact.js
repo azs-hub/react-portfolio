@@ -17,13 +17,13 @@ const Contact = () => {
 						<Fade left>
 							<ul className="list-unstyled list-inline mt-2 mb-5 icon-greyscale">
 								<li className="list-inline-item mr-5">
-									<a href="https://www.linkedin.com/in/anais-siba-5483b127/" target="_blank">
-										<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+									<a href="https://www.linkedin.com/in/anais-siba-5483b127/" target="_blank" rel="noopener noreferrer">
+										<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="linkedin" />
 									</a>
 								</li>
-								<li className="list-inline-item" target="_blank">
-									<a href="#contact">
-										<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+								<li className="list-inline-item">
+									<a href="https://github.com/sibaAnais" target="_blank" rel="noopener noreferrer">
+										<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" />
 									</a>
 								</li>
 							</ul>
