@@ -1,3 +1,4 @@
+import React from "react";
 import data from "../shared_data"
 import Fade from "react-reveal/Fade"
 

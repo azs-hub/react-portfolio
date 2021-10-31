@@ -1,3 +1,4 @@
+import React from "react";
 import data from "../shared_data"
 import Fade from "react-reveal/Fade"
 
@@ -5,9 +6,6 @@ const Contact = () => {
 	return (
 		<div className="section" id="contact">
 			<div className="container-lg">
-				<div className="text-center mb-5">
-					
-				</div>
 				<div className="d-flex align-items-center justify-content-center">
 					<div className="text-center">
 						<Fade right>
