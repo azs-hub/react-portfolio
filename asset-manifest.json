@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86812077.chunk.css",
+    "main.js": "/static/js/main.175cd7a9.chunk.js",
+    "main.js.map": "/static/js/main.175cd7a9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8c562cf0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8c562cf0.js.map",
+    "static/css/2.017f7d84.chunk.css": "/static/css/2.017f7d84.chunk.css",
+    "static/js/2.3963d574.chunk.js": "/static/js/2.3963d574.chunk.js",
+    "static/js/2.3963d574.chunk.js.map": "/static/js/2.3963d574.chunk.js.map",
+    "static/js/3.c66a9030.chunk.js": "/static/js/3.c66a9030.chunk.js",
+    "static/js/3.c66a9030.chunk.js.map": "/static/js/3.c66a9030.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.017f7d84.chunk.css.map": "/static/css/2.017f7d84.chunk.css.map",
+    "static/css/main.86812077.chunk.css.map": "/static/css/main.86812077.chunk.css.map",
+    "static/js/2.3963d574.chunk.js.LICENSE.txt": "/static/js/2.3963d574.chunk.js.LICENSE.txt",
+    "static/media/school.dc73ce71.svg": "/static/media/school.dc73ce71.svg",
+    "static/media/work.5d8dc6c9.svg": "/static/media/work.5d8dc6c9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c562cf0.js",
+    "static/css/2.017f7d84.chunk.css",
+    "static/js/2.3963d574.chunk.js",
+    "static/css/main.86812077.chunk.css",
+    "static/js/main.175cd7a9.chunk.js"
+  ]
+}
