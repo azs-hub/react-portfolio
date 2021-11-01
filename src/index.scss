@@ -62,8 +62,17 @@ code {
 	letter-spacing: 1px;
 	font-size: 0.75rem;
 	font-weight: bold;
+	display: block;
+  line-height: 10px;
 }
 
 .icon-greyscale {
 	filter: grayscale(0%) contrast(0) brightness(1.2)
+}
+
+
+@media (max-width: 576px) {
+  .nav-link {
+    text-align: center;
+  }
 }

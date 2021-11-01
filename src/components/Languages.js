@@ -17,13 +17,13 @@ class Languages extends Component {
 			return (
 				<div className="row align-items-center mt-5">
 	        <Fade left>
-        		<div className="col-sm-5 language-title">
+        		<div className="col-xs-5 language-title">
 				    	<h4>{language.name}</h4>
 				    	<p>{language.subtitle}</p>
 	        	</div>
 					</Fade>
 					<Fade right>
-		        <div className="col-sm-7 language-level">
+		        <div className="col-xs-7 language-level">
 			      	{level}
 			      </div>
 			    </Fade>

@@ -22,7 +22,7 @@ class Skills extends Component {
 									<Zoom delay={1000}>
 							    	<div className="row justify-content-center mt-3 icon-greyscale">
 							      	{skillCat.skills.map((skill, index) => (
-							      		<div className="col-1">
+							      		<div className="col">
 							          	<img src={skill.class} alt="css"></img>
 							          </div>
 							        ))}

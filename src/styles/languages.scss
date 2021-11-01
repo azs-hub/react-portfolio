@@ -9,7 +9,7 @@
 }
 .dots-progress-dot {
 	display: inline-block;
-  margin: 0 10px;
+  margin-right: 10px;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -19,4 +19,10 @@
 .dots-progress-dot-active {
 	background-color: #EBE0DA;
 	border: solid 1px #EBE0DA;
+}
+@media (max-width: 576px) {
+  .language-title h4,
+  .language-title p {
+    text-align: left;
+  }
 }
