@@ -65,6 +65,9 @@ code {
 	display: block;
   line-height: 10px;
 }
+.navbar-collapse {
+	justify-content: flex-end;
+}
 
 .icon-greyscale {
 	filter: grayscale(0%) contrast(0) brightness(1.2)
